@@ -1,0 +1,15 @@
+Model - TipoCuenta
+
+
+        // Codigo descartado
+        //public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
+        //{
+        //    if(Nombre != null && Nombre.Length > 0)
+        //    {
+        //        var firstLetter = Nombre[0].ToString();
+        //        if(firstLetter != firstLetter.ToUpper())
+        //        {
+        //            yield return new ValidationResult("La primera letra debe ser mayuscula", new[] { nameof(Nombre) });
+        //        }
+        //    }
+        //}

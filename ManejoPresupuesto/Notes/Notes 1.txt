@@ -1,0 +1,27 @@
+109 
+
+COMUNICACION CON LA BASE DE DATOS << ConnectionString >> 
+
+	-- 1. ConnectionString  o cadena de conexion es un cojunto de valores relacionados
+		en donde podemos acceder a la base de datos. 
+
+	Ejemplo :
+	  "ConnectionStrings": {
+    "DefaultConnection": "Server = LAPTOP-M4KHPCA6; Database=DBManejo_Presupuesto; Integrated Security=True"
+  }
+
+	-- Libreria DAPPER es una libreria que nos permite trabajar con la capa de acceso a datos+ de nuestra DB
+	Mapear los resultados de un Query a C#
+
+	-- Microsoft.Data.SQLCLIENTE 
+	Nos permite tener los tipos de datos necesarios para conectarnos a una DB SQL SERVER 
+
+Programacion Asyncrona
+
+	-- Un metodo sincrono es aquel que el cual, al ser ejecutado, debemos esperar que termine y no podemos hacer nada mientras tanto.
+	-- Ejemplo: Pedimos una pizza a domiciolio
+	-- Las funciones asincronas se ejecutan y de inmediato retornan, aun si no han terminado de ejecutarse
+	-- La programacion asincrona la debemos utilizar cuando realizamos operaciones I/O (Cuando nuestro sistema se comunican con otros sistemas (DB))
+
+	-- La ventaja de usar programacion asincrona es que nuestro sistema son asi mas eficientes
+	-- En c#, para utiliza programacion asincrona utilizamos Async-await
